@@ -30,7 +30,7 @@ function showSlides(n){
 
 function showContainer(containeridshow, containeridhide) {
   document.getElementById(containeridshow).style.display = "block";
-  document.getElementById(containeridhide).style.display = "none";
+  document.getElementById(containeridhide).style.visibility = "none";
 }
 
 
