@@ -27,3 +27,10 @@ function showSlides(n){
   slides[slideIndex-1].style.display = "block";
 
 }
+
+function showContainer(containeridshow, containeridhide) {
+  document.getElementById(containeridshow).style.display = "block";
+  document.getElementById(containeridhide).style.display = "none";
+}
+
+

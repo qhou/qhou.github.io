@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Assistant');
 
+/* Nav and menu */
+/* End Nav and menu*/
+
+/* General */
+
 *{
   background: rgba(255,255,255,1);
 }
@@ -10,17 +15,24 @@ P{
   font-family: 'Assistant', sans-serif;;
   font-size: 20px;
 }
+/* Eng General */
 
-#intro h1, h3{
+/* Intro page*/
+#intro p, h1, h3{
   color: rgba(0,0,0,1);
   font-family: 'Permanent Marker', cursive;
 }
 
 #intro h1{
   letter-spacing: 3px;
-  font-size: 65px;
-  line-height: 65px;
+  font-size: 60;
+  line-height: 30px;
   text-align: right;
+}
+
+#intro h1:hover{
+  color:rgba(169,197,196,0.6);
+  cursor: pointer;
 }
 
 #intro h3{
@@ -45,6 +57,7 @@ P{
   transform: translate(-50%, -50%);
 }
 
+/* intro slideshow */
 .slideshow-container{
   max-width: auto;
 }
@@ -70,13 +83,23 @@ P{
 }
 
 .prev:hover, .next:hover{
-  color:rgba(0,0,0,0.4);
+  color:rgba(169,197,196,0.6);
   cursor: pointer;
+}
+/* End intro slideshow */
+
+/* intro media */
+#qh-logo{
+  height: 100px;
+  width: auto; 
+  opacity: 0.4;
 
 }
+/* End of intro media*/
+
 
 .page{
-  color: rgba(0,0,0,0.3);
+  color:rgba(169,197,196,0.6);
   position: absolute;
   top: 0%;
   left: 0%;
@@ -124,3 +147,23 @@ P{
 .fa:hover {
   opacity: 0.5;
 }
+
+
+/* Individual sections */
+
+#develop-container{
+  display: none;
+}
+
+#create-container{
+  display: none;
+}
+
+#design-container{
+  display: none;
+}
+
+#explore-container{
+  display: none;
+}
+/* End individual sections */
