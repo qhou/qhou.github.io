@@ -6,16 +6,12 @@
 
 /* General */
 
-*{
-  background: rgba(255,255,255,1);
-}
-
 p{
   color: rgba(0,0,0,1);
   font-family: 'Assistant', sans-serif;;
   font-size: 20px;
 }
-/* Eng General */
+/* Eng General */sh
 
 .modal-body{
   height: 100%;
@@ -28,7 +24,13 @@ p{
   font-family: 'Permanent Marker', cursive;
 }
 
-#intro h1, a{
+h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+#intro h1{
   letter-spacing: 3px;
   font-size: 60;
   line-height: 30px;
@@ -39,7 +41,24 @@ p{
 #intro h1:hover{
   color:rgba(169,197,196,0.6);
   cursor: pointer;
+  text-decoration: none;
 }
+
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a:active{
+  text-decoration: none;
+}
+
 
 #intro h3{
   letter-spacing: 1px;
@@ -212,16 +231,13 @@ p{
 /* end of modal general */
 
 
-.modal-img-wrapper{
-  width: 100%;
-  height: auto;
-}
-
 /* modal img */
 .modal-img{
   width: 100%;
   height: auto;
   background: transparent;
+  vertical-align: middle;
+  padding: 20px;
 }
 
 #modal-excelerate{
@@ -229,18 +245,12 @@ p{
   height: auto;
 }
 
-.modal-img-wrapper{
-  padding: 10px;
-}
-
 .tech-icons{
-  width: 35px;
-  height: auto;
-  padding: 3px;
-}
-
-#tech-icons-git{
   width: 25px;
   height: auto;
   padding: 3px;
+}
+
+section{
+  padding: 20px;
 }

@@ -1,4 +1,3 @@
-window.onload
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -29,17 +28,13 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
 
 }
-var modal;
-var txt;
-var span;
-
 function setDeveloper() {
   // get the modal
-  modal = document.getElementById('develop-container');
+  var modal = document.getElementById('develop-container');
   // get the text that opens the modal
-  txt = document.getElementById("develop-intro");
+  var txt = document.getElementById("develop-intro");
   // get the <span> element that closes the modal
-  span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("close")[0];
 
   // when the user clicks on the text, open the modal
   txt.onclick = function () {
@@ -59,11 +54,11 @@ function setDeveloper() {
 
 function setDesign() {
   // get the modal
-  modal = document.getElementById('design-container');
+  var modal = document.getElementById('design-container');
   // get the text that opens the modal
-  txt = document.getElementById("design-intro");
+  var txt = document.getElementById("design-intro");
   // get the <span> element that closes the modal
-  span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("close")[0];
 
   // when the user clicks on the text, open the modal
   txt.onclick = function () {
@@ -83,11 +78,11 @@ function setDesign() {
 
 function setCreate() {
   // get the modal
-  modal = document.getElementById('create-container');
+  var modal = document.getElementById('create-container');
   // get the text that opens the modal
-  txt = document.getElementById("create-intro");
+  var txt = document.getElementById("create-intro");
   // get the <span> element that closes the modal
-  span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("close")[0];
 
   // when the user clicks on the text, open the modal
   txt.onclick = function () {
@@ -107,11 +102,11 @@ function setCreate() {
 
 function setExplore() {
   // get the modal
-  modal = document.getElementById('explore-container');
+  var modal = document.getElementById('explore-container');
   // get the text that opens the modal
-  txt = document.getElementById("explore-intro");
+  var txt = document.getElementById("explore-intro");
   // get the <span> element that closes the modal
-  span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("close");
 
   // when the user clicks on the text, open the modal
   txt.onclick = function () {

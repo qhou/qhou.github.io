@@ -96,10 +96,10 @@
       </div>
 
       <div class="fa-parent">
-        <a href="https://www.linkedin.com/in/quinnhou/" class="tech-icons fa fa-linkedin-square" />
-        <a href="https://github.com/qhou/" class="tech-icons fa fa-github" />
-        <a href="media/quinn_hou_resume.pdf" target="_blank" class="tech-icons fa fa-file-pdf-o" />
-        <a href="mailto:queiyun.hou@gmail.com" class="tech-icons fa fa-envelope"></a>
+        <a href="https://www.linkedin.com/in/quinnhou/" class="fa fa-linkedin-square" />
+        <a href="https://github.com/qhou/" class="fa fa-github" />
+        <a href="media/quinn_hou_resume.pdf" target="_blank" class="fa fa-file-pdf-o" />
+        <a href="mailto:queiyun.hou@gmail.com" class="fa fa-envelope"></a>
       </div>
     </div>
     <!--slideshow-container-->
@@ -109,7 +109,7 @@
     <!--intro-body-->
 
     <!-- developer modal -->
-    <div id="develop-container" class="modal">
+    <div id="develop-container" style="display:none" class="modal">
       <!-- modal content-->
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -118,70 +118,84 @@
           <div class="modal-header">
             <modal-title>Software Development Projects</modal-title>
           </div>
-          <div class="modal-body">
-            <h4>Excelerate: Data Analytics for Learning (Eduhacks 2017)
-            </h4>
-            <div class="modal-txt">
-              <div class="col-md-7">
+
+          <section>
+            <div class="col-md-8">
+              <div class="section-title">
+                <h4>
+                  Excelerate: Data Analytics for Learning (Eduhacks 2017)
+                </h4>
+              </div>
+              <div class="section-content">
+
                 <p>
-                  <li>Built a data analytics dashboard to breakdown students’ unit-by-unit learning progress</li>
-                  <li>Parsed data from .csv files into interactive Scalable Vector Graphics (SVG) charts using JavaScript and
-                    d3 library.</li>
-                  <li>Engineered product design by designing UI and UX flow with mockups, user stories, and relevant d3 charts</li>
+                  For Eduhacks 2017, we wanted to accelerate students' learning progress by building a data analytics dashboard. I parsed data
+                  from .csv files into interactive Scalable Vector Graphics (SVG) charts using JavaScript and the D3 library.
+                  I also ngineered product design by designing UI and UX flow with mockups, user stories, and relevant d3
+                  charts.
+                  <br>
                   <br>
                   <img class="tech-icons" src="media/icons/js.svg">
                   <img class="tech-icons" src="media/icons/d3.png">
                   <img class="tech-icons" src="media/icons/html.png">
-                  <img class="tech-icons" src="media/icons/css.png">
-                  <br>
+                  <img class="tech-icons" src="media/icons/css.png"> &nbsp;&nbsp;
                   <a href="https://github.com/carhuang/Excelerate" target="_blank">
-                    <p><img id="tech-icons-git" src="media/icons/git.png"/>View code</p>
+                    <i class="p fa fa-github" aria-hidden="true"></i> View Code
                   </a>
                 </p>
               </div>
-              <div class ="col-md-5">
-                <img class="modal-img" src="media/excelerate.jpg">
-              </div>
-              </div>
             </div>
-          </div>
-        </div>
+            <div class="col-md-4">
+              <img class="modal-img" src="media/excelerate.jpg">
+            </div>
+         </section>
+
+        <hr class="light">
+
+
+
+
+
+
+
       </div>
+    </div>
+    </div>
     </div>
 
 
-      <!-- end developer modal -->
+    <!-- end developer modal -->
 
-      <!-- design modal -->
-      <div id="design-container" class="modal">
-        <!-- modal content-->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <p>Do some design text something</p>
-        </div>
+    <!-- design modal -->
+    <div id="design-container" style="display:none" class="modal">
+      <!-- modal content-->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Do some design text something</p>
       </div>
-      <!-- end design modal -->
+    </div>
+    <!-- end design modal -->
 
-      <!-- create modal -->
-      <div id="create-container" class="modal">
-        <!-- modal content-->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <p>Do some create text something</p>
-        </div>
+    <!-- create modal -->
+    <div id="create-container" style="display:none" class="modal">
+      <!-- modal content-->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Do some create text something</p>
       </div>
-      <!-- end create modal -->
+    </div>
+    <!-- end create modal -->
 
 
-      <!-- explore modal -->
-      <div id="explore-container" class="modal">
-        <!-- modal content-->
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <p>Do some explore text something</p>
-        </div>
+    <!-- explore modal -->
+    <div id="explore-container" style="display:none" class="modal">
+      <!-- modal content-->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Do some explore text something</p>
       </div>
-      <!-- end explore modal -->
+    </div>
+    <!-- end explore modal -->
 
 
 
