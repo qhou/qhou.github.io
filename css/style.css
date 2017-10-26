@@ -61,6 +61,7 @@ a:link{
 }
 a:hover{
   text-decoration: none;
+  color:rgba(169,197,196,0.6);
 }
 
 a:visited{
@@ -296,4 +297,10 @@ hr{
   height:1px;
   margin-top:20px;
   margin-bottom:20px;
+}
+
+/* design modal*/
+.design-img{
+  width: 100%;
+  height: auto;
 }

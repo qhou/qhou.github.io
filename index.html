@@ -38,7 +38,7 @@
             <a class='intro-heading' onclick="setDeveloper()" id="develop-intro">DEVELOP</a>
           </h1>
           <h1>
-            <a class='intro-heading' onclick="setDesign()" id="design-intro">DESIGN</a>
+            <a class='intro-heading' a href="media/design/quinn_hou_UX_portfolio.pdf"  target="_blank" id="design-intro">DESIGN</a>
           </h1>
           <h1>
             <a class='intro-heading' onclick="setCreate()" id="create-intro">CREATE</a>
@@ -229,38 +229,39 @@
           <hr>
 
           <section>
-              <div class="col-md-4">
-                <img class="modal-img" src="media/dev/flyaway.png">
+            <div class="col-md-4">
+              <img class="modal-img" src="media/dev/flyaway.png">
+            </div>
+            <div class="col-md-8">
+              <div class="section-title">
+                <h4>
+                  Fly Away SQL Database Application
+                </h4>
               </div>
-              <div class="col-md-8">
-                <div class="section-title">
-                  <h4>
-                    Fly Away SQL Database Application
-                  </h4>
-                </div>
-                <div class="section-content">
-  
-                  <p>
-                      Fly Away is a database application that monitors airport operations in Java and JDBC with MySQL Server, populated with a mock airline database.                      
-                    <br>
-                    <br> 
-                    As preplanning, I developed relational schema to handle two classes of users (customers and airlines)  with 15 entities.
-                    For back-end, I displayed ResultSet Objects from SQL query statements on UI built from IntelliJ Gui Designer in XML. 
-                    Additionally, I implemented transactions in Java to parse SQL queries (including triggers, nested queries, aggregations) in MySQL from user input.
-                    
-                    <br>
-                    <br>
-                    <img class="tech-icons" src="media/icons/mysql.png">
-                    <img class="tech-icons" src="media/icons/java.png">
-                    <img class="tech-icons" src="media/icons/sql.png">
-                    <img class="tech-icons" src="media/icons/xml.jpg">&nbsp;&nbsp;
-                    </a>
-                  </p>
-                </div>
+              <div class="section-content">
+
+                <p>
+                  Fly Away is a database application that monitors airport operations in Java and JDBC with MySQL Server, populated with a
+                  mock airline database.
+                  <br>
+                  <br> As preplanning, I developed relational schema to handle two classes of users (customers and airlines)
+                  with 15 entities. For back-end, I displayed ResultSet Objects from SQL query statements on UI built from
+                  IntelliJ Gui Designer in XML. Additionally, I implemented transactions in Java to parse SQL queries (including
+                  triggers, nested queries, aggregations) in MySQL from user input.
+
+                  <br>
+                  <br>
+                  <img class="tech-icons" src="media/icons/mysql.png">
+                  <img class="tech-icons" src="media/icons/java.png">
+                  <img class="tech-icons" src="media/icons/sql.png">
+                  <img class="tech-icons" src="media/icons/xml.jpg">&nbsp;&nbsp;
+                  </a>
+                </p>
               </div>
-            </section>
-  
-            <hr>
+            </div>
+          </section>
+
+          <hr>
 
           <section>
             <div class="col-md-8">
@@ -296,43 +297,78 @@
               </div>
             </div>
             <div class="col-md-4">
-                <img class="modal-img" src="media/dev/outof.png">
-              </div>
+              <img class="modal-img" src="media/dev/outof.png">
+            </div>
           </section>
-
-          <hr>
-
-
-
-
-
         </div>
       </div>
     </div>
     </div>
-
-
     <!-- end developer modal -->
 
-    <!-- design modal -->
-    <div id="design-container" style="display:none" class="modal">
-      <!-- modal content-->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Do some design text something</p>
-      </div>
-    </div>
-    <!-- end design modal -->
 
     <!-- create modal -->
     <div id="create-container" style="display:none" class="modal">
       <!-- modal content-->
       <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Do some create text something</p>
+        <div class="create-projects">
+          <div class="modal-header">
+            <h4 class="modal-title">Initiatives and Creativity</h4>
+          </div>
+
+
+          <section>
+            <div class="section-content">
+
+              <div class="col-md-3">
+                <img class="design-img" src="media/create/but/lionel_board.png">
+              </div>
+
+              <div class="col-md-3">
+                <img class="design-img" src="media/create/but/liam_board_2.png">
+              </div>
+
+              <div class="col-md-3">
+                <img class="design-img" src="media/create/but/christine_board.png">
+              </div>
+
+              <div class="col-md-3">
+                <div class="section-title">
+                  <h4>
+                    But Not Because: A Photography Exhibition
+                  </h4>
+                </div>
+                <div class="section-content">
+                  <p>
+                    ,But Not Because received <a href="https://students.ubc.ca/career/community-experiences/grant-winners" >UBC Connect to Community Grant 2017</a>, as recognition for its efforts in improving social issues.<br><br>
+                    ,But was a week-long photo exhibition held in March 2017 at UBC, as well as invited to present at the
+                    Poverty Action Conference.
+                    <br>
+                    <br> By featuring the conversations from the homeless community, its goal is to remove stigma and blame on
+                    homelessness and to build a leveled understanding between communities.
+                    <br> This is just the start of change.
+                  </p>
+                  <p>
+                    <a href="media/create/but/event/but_event.pdf" target="_blank">
+                      <i class="p fa fa-photo" aria-hidden="true"></i> View event photos
+                    </a>
+                    <br>
+                    <a href="media/create/but/but_story.png" target="_blank">
+                      <i class="p fa fa-file-image-o" aria-hidden="true"></i> High-def story boards
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
       </div>
     </div>
+    </div>
     <!-- end create modal -->
+
 
 
     <!-- explore modal -->
@@ -340,7 +376,14 @@
       <!-- modal content-->
       <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Do some explore text something</p>
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="create-projects">
+              <div class="modal-header">
+                <h4 class="modal-title">Exploring and Travelling</h4>
+              </div>
+        <p>I'll be updating this section with my newest adventures soon.<br>
+          In the meantime, you are welcome to visit my travel blog <a href="onnapkinnotes.wordpress.com" target="_blank"> On Napkin Notes</a></p>
       </div>
     </div>
     <!-- end explore modal -->
