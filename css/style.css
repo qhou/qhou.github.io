@@ -11,7 +11,14 @@ p{
   font-family: 'Assistant', sans-serif;;
   font-size: 20px;
 }
-/* Eng General */sh
+/* End General */
+
+.modal p{
+  color: rgba(0,0,0,1);
+  font-family: 'Assistant', sans-serif;;
+  font-size: 16px;
+}
+
 
 .modal-body{
   height: 100%;
@@ -183,10 +190,10 @@ a:active{
   left: 0;
   top: 0;
   width: 100%; /*full width*/
-  height: 100%; /*full height*/
-  overflow: auto; /*enable scroll if needed*/
+  height: auto; 
+  overflow: hidden;
   background-color: rgb(0, 0 ,0); /*fallback colour*/
-  background-color: rgba(0,0,0,0.2); /*black with opacity*/
+  background-color: rgba(0,0,0,0.09); /*black with opacity*/
 }
 
 /* modal content box */
@@ -200,6 +207,7 @@ a:active{
   margin-right: auto;
   width: 95%; /* could be more or less, depending on screen size */
   height: 95%;
+  overflow-y: auto;
 }
 
 .modal-txt{
@@ -253,4 +261,13 @@ a:active{
 
 section{
   padding: 20px;
+}
+
+hr{
+  clear: both;
+  width:90%;
+  background-color: rgba(0,0,0,0.1);
+  height:1px;
+  margin-top:20px;
+  margin-bottom:20px;
 }
