@@ -10,12 +10,17 @@
   background: rgba(255,255,255,1);
 }
 
-P{
+p{
   color: rgba(0,0,0,1);
   font-family: 'Assistant', sans-serif;;
   font-size: 20px;
 }
 /* Eng General */
+
+.modal-body{
+  height: 100%;
+  width: auto;
+}
 
 /* Intro page*/
 #intro p, h1, h3{
@@ -23,11 +28,12 @@ P{
   font-family: 'Permanent Marker', cursive;
 }
 
-#intro h1{
+#intro h1, a{
   letter-spacing: 3px;
   font-size: 60;
   line-height: 30px;
   text-align: right;
+  color: rgba(0,0,0,1);
 }
 
 #intro h1:hover{
@@ -38,7 +44,7 @@ P{
 #intro h3{
   letter-spacing: 1px;
   font-size: 50px;
-  line-height: 50px;
+  line-height: 70px;
   text-align: right;
 }
 
@@ -148,26 +154,93 @@ P{
   opacity: 0.5;
 }
 
+/* modal general*/
 
-/* Sections: General*/
-
-/* End of Sections: General*/
-
-/* Individual sections */
-
-#develop-container{
-  display: none;
+/* modals */
+.modal{
+  display: none; /*hidden by default*/
+  position: fixed; /*stay in place*/
+  z-index: 1; /*sit on top*/
+  left: 0;
+  top: 0;
+  width: 100%; /*full width*/
+  height: 100%; /*full height*/
+  overflow: auto; /*enable scroll if needed*/
+  background-color: rgb(0, 0 ,0); /*fallback colour*/
+  background-color: rgba(0,0,0,0.2); /*black with opacity*/
 }
 
-#create-container{
-  display: none;
+/* modal content box */
+.modal-content{
+  background-color: rgba(255,255,255,0.98);
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
+  border: 1px solid #888;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%; /* could be more or less, depending on screen size */
+  height: 95%;
 }
 
-#design-container{
-  display: none;
+.modal-txt{
+  color:rgba(0,0,0,1);
+  font-family: 'Assistant', sans-serif;;
+  font-size: 15px;
 }
 
-#explore-container{
-  display: none;
+.modal-body{
+  width: inherit;
+  height: inherit;
 }
-/* End individual sections */
+
+/* the close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: nonw;
+  cursor: pointer;
+}
+
+/* end of modal general */
+
+
+.modal-img-wrapper{
+  width: 100%;
+  height: auto;
+}
+
+/* modal img */
+.modal-img{
+  width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+#modal-excelerate{
+  width: 100%;
+  height: auto;
+}
+
+.modal-img-wrapper{
+  padding: 10px;
+}
+
+.tech-icons{
+  width: 35px;
+  height: auto;
+  padding: 3px;
+}
+
+#tech-icons-git{
+  width: 25px;
+  height: auto;
+  padding: 3px;
+}
