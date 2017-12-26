@@ -35,10 +35,10 @@
       <div class="slideshow fading">
         <div id="intro">
           <h1>
-            <a class='intro-heading' onclick="setDeveloper()" id="develop-intro">DEVELOP</a>
+            <a class='intro-heading' onclick="toggleModal('#develop-container')" id="develop-intro">DEVELOP</a>
           </h1>
           <h1>
-            <a class='intro-heading' onclick="setCreate()" id="create-intro">CREATE</a>
+            <a class='intro-heading' onclick="toggleModal('#create-container')" id="create-intro">CREATE</a>
           </h1>
           <h1>
             <a class='intro-heading' a href="media/design/quinn_hou_UX_portfolio.pdf"  target="_blank" id="design-intro">DESIGN</a>
@@ -112,7 +112,7 @@
     <div id="develop-container" style="display:none" class="modal">
       <!-- modal content-->
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick = toggleModal('#develop-container')>&times;</span>
 
         <div class="developer-projects">
           <div class="modal-header">
@@ -311,7 +311,7 @@
     <div id="create-container" style="display:none" class="modal">
       <!-- modal content-->
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick = toggleModal('#create-container')>&times;</span>
         <div class="create-projects">
           <div class="modal-header">
             <h4 class="modal-title">Initiatives and Creativity</h4>
@@ -373,7 +373,7 @@
     <div id="explore-container" style="display:none" class="modal">
       <!-- modal content-->
       <div class="modal-content">
-        <span class="close">&times;</span>
+        <span class="close" onclick = toggleModal('#explore-container')>&times;</span>
               <div class="modal-header">
                 <h4 class="modal-title">Exploring and Travelling</h4>
               </div>
@@ -391,6 +391,6 @@
 
 </body>
 
-<script src="js/animation.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 
 </html>
